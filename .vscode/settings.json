@@ -1,0 +1,14 @@
+{
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "connectionTimeout": 30,
+      "database": "node-psg",
+      "dialect": "PostgreSQL",
+      "name": "localtest",
+      "port": 5432,
+      "server": "localhost",
+      "username": "carlosdelgado"
+    }
+  ]
+}

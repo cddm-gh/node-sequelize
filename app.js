@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
     connectionString: conectionStr
   });
   client.connect();
-  client.query("SELECT * FROM recipes", (err, resp) => {
+  client.query("SELECT * FROM recipes WHERE id='1' ", (err, resp) => {
     if (err) console.log(err);
     if (resp) {
       console.log(resp.rows);
